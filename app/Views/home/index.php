@@ -13,7 +13,7 @@
                 <span class="text-uppercase fw-semibold d-block mb-3 hero-label">
                     Nusa Architects - Where Vision Meets Reality
                 </span>
-                <h1 class="fw-bold text-white mb-4 hero-heading">
+                <h1 class="fw-bold text-white mb-4 lh-sm fs-1 hero-heading">
                     The Art of Stunning <br> Interior Design
                 </h1>
                 <p class="mb-4 hero-desc">

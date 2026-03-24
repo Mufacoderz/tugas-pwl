@@ -1,11 +1,17 @@
 <nav class="navbar navbar-expand-lg w-100 bg-transparent">
     <div class="container py-1">
 
-        <a class="navbar-brand fw-bold fs-4 text-decoration-none text-white" href="#" >
+        <a class="navbar-brand fw-bold fs-3 text-decoration-none text-white" href="#" >
             Nusa Architects
         </a>
 
-        <div class="collapse navbar-collapse" id="mainNav">
+        <button class="navbar-toggler border-0 shadow-none" type="button" 
+                data-bs-toggle="collapse" data-bs-target="#mainNav"
+                aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon filter-white"></span>
+        </button>
+
+        <div class="collapse navbar-collapse px-1" id="mainNav">
 
             <ul class="navbar-nav mx-auto gap-1">
                 <li class="nav-item">
@@ -23,7 +29,7 @@
             </ul>
 
             <div class="mt-3 mt-lg-0">
-                <a href="#" class="btn text-white fw-bold small px-4 py-2 rounded-2 goldenBG">
+                <a href="#" class="btn text-white fw-bold small px-4 py-2 rounded-2 golden-btn">
                     Consult Us
                 </a>
             </div>

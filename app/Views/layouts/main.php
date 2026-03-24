@@ -13,6 +13,9 @@
 
 
     <style>
+        /* *{
+            border: red 1px solid !important;
+        } */
         .navbar {
             position: fixed;
             top: 0;
@@ -25,13 +28,27 @@
             letter-spacing: 2px;
         }
 
-        .goldenBG {
+        .nav-item a {
+            transition: all 0.3s ease;
+        }
+
+        .nav-item a:hover {
+            color: #D4AF37 !important;
+        }
+
+        .golden-btn {
             background-color: #D4AF37 !important;
             border-color: none !important;
         }
 
+        .golden-btn:hover {
+            background-color: transparent !important;
+            border-color: #D4AF37 !important;
+            color: #D4AF37 !important;
+        }
+
         .hero-overlay {
-            background: linear-gradient(to right, rgba(0, 0, 0, 0.75) 40%, rgba(0, 0, 0, 0.15) 100%);
+            background: linear-gradient(to right, rgba(0, 0, 0, 0.60) 40%, rgba(0, 0, 0, 0.15) 100%);
         }
 
         .hero-label {
@@ -40,8 +57,6 @@
         }
 
         .hero-heading {
-            font-size: 3.2rem;
-            line-height: 1.15;
             font-family: 'Playfair Display', serif;
         }
 
@@ -70,6 +85,20 @@
             -webkit-backdrop-filter: blur(12px);
             border: 1px solid rgba(255, 255, 255, 0.2);
             border-radius: 0 0 12px 12px !important;
+        }
+
+
+        .filter-white {
+            filter: invert(1);
+        }
+
+        @media (max-width: 991.98px) {
+            .navbar-collapse {
+                background-color: rgba(0, 0, 0, 0.85);
+                border-radius: 8px;
+                padding: 10px;
+                margin-top: 0.5rem;
+            }
         }
     </style>
 
