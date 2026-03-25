@@ -1,7 +1,7 @@
 <section class="position-relative overflow-hidden min-vh-100 d-flex align-items-center">
 
     <div class="position-absolute top-0 start-0 w-100 h-100">
-        <img src="<?= BASE_URL ?>/app/Views/assets/images/hero-bg.jpg"
+        <img src="<?= BASE_URL ?>/app/Views/assets/images/bg-hero.jpg"
             class="w-100 h-100 object-fit-cover">
         <div class="position-absolute top-0 start-0 w-100 h-100 hero-overlay"></div>
     </div>
@@ -11,7 +11,7 @@
 
             <div class="col-lg-6 py-5">
                 <span class="text-uppercase fw-semibold d-block mb-3 hero-label">
-                    Nusa Architects - Where Vision Meets Reality
+                    Nusa Interiors - Where Vision Meets Reality
                 </span>
                 <h1 class="fw-bold text-white mb-4 lh-sm fs-1 hero-heading">
                     The Art of Stunning <br> Interior Design

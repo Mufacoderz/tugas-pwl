@@ -4,7 +4,7 @@
         <div class="row gy-4">
 
             <div class="col-12 col-lg-4">
-                <a href="#" class="text-decoration-none text-white fw-bold fs-3">Nusa Architects</a>
+                <a href="#" class="text-decoration-none text-white fw-bold fs-3">Nusa Interiors</a>
                 <p class="text-white-50 small mt-3 mb-0" style="max-width: 280px; line-height: 1.7;">
                     Building spaces that inspire. We craft architecture with purpose, precision, and lasting elegance.
                 </p>
@@ -35,7 +35,7 @@
                 <h6 class="fw-bold text-uppercase mb-3 golden-text">Contact</h6>
                 <ul class="list-unstyled d-flex flex-column gap-2">
                     <li class="text-white-50 small">Jl. Gerbang Dayaku No. 35, Loa Janan, Kutai Kartanegara</li>
-                    <li><a href="mailto:design@nusaarchitects.com" class="text-white-50 text-decoration-none small footer-link">design@nusaarchitects.com</a></li>
+                    <li><a href="mailto:design@nusaInteriors.com" class="text-white-50 text-decoration-none small footer-link">design@nusaInteriors.com</a></li>
                     <li><a href="tel:+6281348726973" class="text-white-50 text-decoration-none small footer-link">+62 813 4872 6973</a></li>
                 </ul>
             </div>
@@ -47,7 +47,7 @@
 
         <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
             <p class="text-white-50 small mb-0">
-                &copy; 2025 Nusa Architects. All rights reserved.
+                &copy; 2025 Nusa Interiors. All rights reserved.
             </p>
             <p class="text-white-50 small mb-0">
                 Crafted with precision & care.

@@ -2,7 +2,7 @@
     <div class="container py-1">
 
         <a class="navbar-brand fw-bold fs-3 text-decoration-none text-white" href="#" >
-            Nusa Architects
+            Nusa Interiors
         </a>
 
         <button class="navbar-toggler border-0 shadow-none" type="button" 
