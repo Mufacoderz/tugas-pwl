@@ -92,6 +92,19 @@
             filter: invert(1);
         }
 
+        .golden-text {
+            color: #D4AF37;
+            letter-spacing: 0.05em;
+        }
+
+        .footer-link {
+            transition: color 0.2s ease;
+        }
+
+        .footer-link:hover {
+            color: #D4AF37 !important;
+        }
+
         @media (max-width: 991.98px) {
             .navbar-collapse {
                 background-color: rgba(0, 0, 0, 0.85);
