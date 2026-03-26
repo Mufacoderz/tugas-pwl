@@ -1,3 +1,5 @@
+<!-- section hero -->
+
 <section class="position-relative overflow-hidden min-vh-100 d-flex align-items-center">
 
     <div class="position-absolute top-0 start-0 w-100 h-100">
@@ -20,7 +22,7 @@
                     Whether it's your home, office, or a commercial project,
                     we are always dedicated to bringing your vision to life.
                 </p>
-                <a href="#" class="btn text-white fw-semibold px-4 py-2 rounded-2 hero-btn">
+                <a href="#" class="btn text-white fw-semibold px-4 py-2 rounded-pill golden-btn">
                     Take Consult &#8594;
                 </a>
             </div>
@@ -47,4 +49,12 @@
 
         </div>
     </div>
+</section>
+
+<!-- section about -->
+
+
+<section class="position-relative overflow-hidden min-vh-100 d-flex align-items-center">
+
+
 </section>
