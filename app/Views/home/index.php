@@ -18,12 +18,12 @@
                 <h1 class="fw-bold text-white mb-4 lh-sm fs-1 hero-heading">
                     The Art of Stunning <br> Interior Design
                 </h1>
-                <p class="mb-4 hero-desc">
+                <p class="mb-4 hero-desc text-white-50">
                     Whether it's your home, office, or a commercial project,
                     we are always dedicated to bringing your vision to life.
                 </p>
                 <a href="#" class="btn text-white fw-semibold px-4 py-2 rounded-pill golden-btn">
-                    Take Consult &#8594;
+                    Take Consult <i class="fa-solid fa-arrow-right ms-2"></i>
                 </a>
             </div>
 
@@ -31,9 +31,9 @@
                 <div class="position-relative hero-visual">
 
                     <img src="<?= BASE_URL ?>/app/Views/assets/images/hero-room.jpg"
-                        class="rounded-3 object-fit-cover hero-img d-block">
+                        class=" object-fit-cover hero-img d-block rounded-top">
 
-                    <div class="glass-card rounded-3 p-3 mt-3">
+                    <div class="glass-card  p-3 mt-3 rounded-bottom">
                         <h3 class="fw-bold mb-0 text-white">260+</h3>
                         <small class="text-white-50">Successful Projects and Counting</small>
                         <hr class="border-secondary my-2">

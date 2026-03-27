@@ -5,7 +5,6 @@ nav {
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     isolation: isolate;
 }
 
@@ -14,9 +13,7 @@ nav {
     letter-spacing: 2px;
 }
 
-.nav-item a {
-    transition: all 0.3s ease;
-}
+
 
 .nav-item a:hover {
     color: #D4AF37 !important;
@@ -24,7 +21,6 @@ nav {
 
 .golden-btn {
     background-color: #D4AF37 !important;
-    border-color: transparent !important;
 }
 
 .golden-btn:hover {
@@ -47,7 +43,6 @@ nav {
 }
 
 .hero-desc {
-    color: rgba(255, 255, 255, 0.7);
     max-width: 420px;
 }
 
@@ -57,7 +52,6 @@ nav {
 
 .hero-img {
     height: 280px;
-    border-radius: 12px 12px 0 0 !important;
 }
 
 .glass-card {
@@ -65,7 +59,6 @@ nav {
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 0 0 12px 12px !important;
 }
 
 .filter-white {
@@ -76,9 +69,6 @@ nav {
     color: #D4AF37;
 }
 
-.footer-link {
-    transition: color 0.2s ease;
-}
 
 .footer-link:hover {
     color: #D4AF37 !important;
@@ -87,8 +77,7 @@ nav {
 @media (max-width: 991.98px) {
     .navbar-collapse {
         background-color: rgba(0, 0, 0, 0.85);
-        border-radius: 8px;
-        padding: 10px;
-        margin-top: 0.5rem;
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
     }
 }
