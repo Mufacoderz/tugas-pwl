@@ -80,4 +80,7 @@ nav {
         backdrop-filter: blur(12px);
         -webkit-backdrop-filter: blur(12px);
     }
+    .consult-btn a{
+        border-radius: 0% !important;
+    }
 }
