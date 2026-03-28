@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg w-100 position-fixed top-0 start-0 border-bottom" style="z-index: 1030;">
+<nav class="navbar navbar-expand-lg w-100 position-fixed top-0 start-0 " style="z-index: 1030;">
     <div class="container py-0 d-flex align-items-center">
 
         <a class="navbar-brand fw-bold fs-4 text-decoration-none text-white" href="#">
@@ -38,3 +38,4 @@
         </div>
     </div>
 </nav>
+

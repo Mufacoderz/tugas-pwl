@@ -15,8 +15,50 @@ nav {
 
 
 
+
 .nav-item a:hover {
     color: #D4AF37 !important;
+}
+
+nav.navbar {
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    border: none !important;
+}
+
+nav.navbar.scrolled {
+    background: rgba(15, 13, 10, 0.85) !important;
+    backdrop-filter: blur(24px) !important;
+    -webkit-backdrop-filter: blur(24px) !important;
+    border: none !important;
+    border-bottom: 1px solid rgba(212, 175, 55, 0.12) !important;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4),
+                0 1px 0 rgba(212, 175, 55, 0.08) inset !important;
+    margin: 12px 60px;
+    border-radius: 20px !important;
+    width: calc(100% - 120px) !important;
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+
+nav.navbar.scrolled .golden-btn {
+    background-color: #D4AF37 !important;
+    border: none !important;
+    border-radius: 50px !important;
+    padding: 7px 22px !important;
+    font-size: 0.82rem !important;
+    letter-spacing: 0.5px;
+    box-shadow: 0 2px 12px rgba(212, 175, 55, 0.3);
+    transition: all 0.3s ease;
+}
+
+nav.navbar.scrolled .golden-btn:hover {
+    background-color: transparent !important;
+    border: 1px solid #D4AF37 !important;
+    color: #D4AF37 !important;
+    box-shadow: 0 0 20px rgba(212, 175, 55, 0.2);
 }
 
 .golden-btn {
@@ -74,13 +116,28 @@ nav {
     color: #D4AF37 !important;
 }
 
+
+
 @media (max-width: 991.98px) {
-    .navbar-collapse {
+        .navbar-collapse {
         background-color: rgba(0, 0, 0, 0.85);
         backdrop-filter: blur(12px);
         -webkit-backdrop-filter: blur(12px);
     }
     .consult-btn a{
         border-radius: 0% !important;
+    }
+    nav.navbar.scrolled {
+        margin: 10px 16px;
+        width: calc(100% - 32px) !important;
+        border-radius: 16px !important;
+    }
+
+    nav.navbar.scrolled .navbar-collapse {
+        background: rgba(15, 13, 10, 0.95);
+        border-radius: 12px;
+        margin-top: 8px;
+        border: 1px solid rgba(212, 175, 55, 0.12) !important;
+        padding: 8px;
     }
 }
