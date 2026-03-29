@@ -5,20 +5,20 @@
 
 :root{
     --golden-color: #D4AF37;
+    --font-primary: 'Playfair Display', serif;
 }
 
 .golden-text {
     color: var(--golden-color);
 }
-nav {
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-    isolation: isolate;
+
+.primary-text {
+    font-family: var(--font-primary);
 }
 
+
 .navbar-brand {
-    font-family: 'Cormorant Garamond', sans-serif;
+    font-family: 'Cormorant Garamond', serif;
     letter-spacing: 2px;
 }
 
@@ -34,6 +34,16 @@ nav.navbar {
     border: none !important;
 }
 
+
+.golden-btn {
+    background-color: var(--golden-color) !important;
+}
+
+.golden-btn:hover {
+    background-color: transparent !important;
+    border-color: var(--golden-color) !important;
+    color: var(--golden-color) !important;
+}
 nav.navbar.scrolled {
     background: rgba(15, 13, 10, 0.85) !important;
     backdrop-filter: blur(24px) !important;
@@ -49,47 +59,17 @@ nav.navbar.scrolled {
     padding-bottom: 4px !important;
     transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-
-
 nav.navbar.scrolled .golden-btn {
-    background-color: var(--golden-color) !important;
-    border: none !important;
-    border-radius: 50px !important;
     padding: 7px 22px !important;
     font-size: 0.82rem !important;
-    letter-spacing: 0.5px;
-    box-shadow: 0 2px 12px rgba(212, 175, 55, 0.3);
     transition: all 0.3s ease;
 }
-
-nav.navbar.scrolled .golden-btn:hover {
-    background-color: transparent !important;
-    border: 1px solid var(--golden-color) !important;
-    color: var(--golden-color) !important;
-    box-shadow: 0 0 20px rgba(212, 175, 55, 0.2);
-}
-
-.golden-btn {
-    background-color: var(--golden-color) !important;
-}
-
-.golden-btn:hover {
-    background-color: transparent !important;
-    border-color: var(--golden-color) !important;
-    color: var(--golden-color) !important;
-}
-
 .hero-overlay {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.60) 40%, rgba(0, 0, 0, 0.15) 100%);
 }
 
 .hero-label {
     letter-spacing: 4px;
-}
-
-.hero-heading {
-    font-family: 'Playfair Display', serif;
 }
 .hero-visual {
     max-width: 380px;
@@ -114,9 +94,6 @@ nav.navbar.scrolled .golden-btn:hover {
 
 
 
-footer {
-    background-color: #1a1208;
-}
 
 
 .footer-link:hover {
@@ -129,7 +106,6 @@ footer {
 }
 
 .about-bg-text {
-    font-family: 'Playfair Display', serif;
     font-size: clamp(80px, 14vw, 180px);
     font-weight: 900;
     color: rgba(0, 0, 0, 0.04);
@@ -147,7 +123,6 @@ footer {
 
 #about .container {
     position: relative;
-    z-index: 1;
 }
 
 .about-line {
@@ -163,15 +138,11 @@ footer {
 }
 
 .about-heading {
-    font-family: 'Playfair Display', serif;
     font-size: clamp(2rem, 4vw, 3rem);
     color: #1a1a1a;
 }
 
-
-
 .about-card {
-    background: #ffffff;
     border: 1px solid rgba(0, 0, 0, 0.07);
     transition: all 0.35s ease;
 }
@@ -183,8 +154,6 @@ footer {
 }
 
 .about-card-highlight {
-    background: #1a1208 !important;
-    border-color: transparent !important;
     box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
 }
 
@@ -193,9 +162,6 @@ footer {
     box-shadow: 0 16px 48px rgba(0, 0, 0, 0.28);
 }
 
-.about-card-title {
-    color: #1a1a1a;
-}
 
 
 

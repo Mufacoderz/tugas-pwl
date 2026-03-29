@@ -16,22 +16,22 @@
 
             <ul class="navbar-nav mx-auto gap-1 text-center text-lg-start">
                 <li class="nav-item">
-                    <a class="nav-link fw-semibold small px-3 text-white" href="#">Home</a>
+                    <a class="nav-link fw-semibold small px-3 text-white" href="#">Beranda</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link fw-semibold small px-3 text-white" href="#">About</a>
+                    <a class="nav-link fw-semibold small px-3 text-white" href="#">Tentang Kami</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link fw-semibold small px-3 text-white" href="#">Service</a>
+                    <a class="nav-link fw-semibold small px-3 text-white" href="#">Layanan</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link fw-semibold small px-3 text-white" href="#">Project</a>
+                    <a class="nav-link fw-semibold small px-3 text-white" href="#">Projek</a>
                 </li>
             </ul>
 
             <div class="consult-btn mt-3 mt-lg-0 text-center text-lg-end">
                 <a href="#" class="btn text-white fw-bold small px-4 py-2 rounded-pill golden-btn w-100 w-lg-auto">
-                    Consult Us
+                    Konsultasi
                 </a>
             </div>
 
