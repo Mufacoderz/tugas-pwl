@@ -2,10 +2,8 @@
     border: red 1px solid !important;
 } */
 
-
 :root{
     --golden-color: #D4AF37;
-    --font-primary: 'Playfair Display', serif;
 }
 
 .golden-text {
@@ -13,28 +11,8 @@
 }
 
 .primary-text {
-    font-family: var(--font-primary);
+    font-family: Playfair Display, serif;
 }
-
-
-.navbar-brand {
-    font-family: 'Cormorant Garamond', serif;
-    letter-spacing: 2px;
-}
-
-
-
-
-.nav-item a:hover {
-    color: var(--golden-color) !important;
-}
-
-nav.navbar {
-    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-    border: none !important;
-}
-
-
 .golden-btn {
     background-color: var(--golden-color) !important;
 }
@@ -44,7 +22,22 @@ nav.navbar {
     border-color: var(--golden-color) !important;
     color: var(--golden-color) !important;
 }
-nav.navbar.scrolled {
+
+.navbar-brand {
+    font-family: 'Cormorant Garamond', serif;
+    letter-spacing: 2px;
+}
+
+.nav-item a:hover {
+    color: var(--golden-color) !important;
+}
+
+nav {
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+nav.scrolled {
     background: rgba(15, 13, 10, 0.85) !important;
     backdrop-filter: blur(24px) !important;
     -webkit-backdrop-filter: blur(24px) !important;
@@ -59,7 +52,7 @@ nav.navbar.scrolled {
     padding-bottom: 4px !important;
     transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
-nav.navbar.scrolled .golden-btn {
+nav.scrolled .golden-btn {
     padding: 7px 22px !important;
     font-size: 0.82rem !important;
     transition: all 0.3s ease;
@@ -75,8 +68,6 @@ nav.navbar.scrolled .golden-btn {
     max-width: 380px;
 }
 
-
-
 .hero-img {
     height: 280px;
 }
@@ -88,45 +79,12 @@ nav.navbar.scrolled .golden-btn {
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.filter-white {
-    filter: invert(1);
-}
-
-
-
-
-
-.footer-link:hover {
-    color: #D4AF37 !important;
-}
 
 #about {
     background-color: #f9f7f4;
-    overflow: hidden;
-}
-
-.about-bg-text {
-    font-size: clamp(80px, 14vw, 180px);
-    font-weight: 900;
-    color: rgba(0, 0, 0, 0.04);
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    white-space: nowrap;
-    pointer-events: none;
-    user-select: none;
-    letter-spacing: 8px;
-    z-index: 0;
-    margin-top: -40px;
-}
-
-
-#about .container {
-    position: relative;
 }
 
 .about-line {
-    display: inline-block;
     width: 32px;
     height: 2px;
     background-color: var(--golden-color);
@@ -134,16 +92,13 @@ nav.navbar.scrolled .golden-btn {
 
 .about-label-text {
     letter-spacing: 3px;
-    font-size: 0.72rem !important;
 }
 
 .about-heading {
     font-size: clamp(2rem, 4vw, 3rem);
-    color: #1a1a1a;
 }
 
 .about-card {
-    border: 1px solid rgba(0, 0, 0, 0.07);
     transition: all 0.35s ease;
 }
 
@@ -162,31 +117,28 @@ nav.navbar.scrolled .golden-btn {
     box-shadow: 0 16px 48px rgba(0, 0, 0, 0.28);
 }
 
-
-
-
-
+.footer-link:hover {
+    color: #D4AF37 !important;
+}
 
 @media (max-width: 991.98px) {
-        .navbar-collapse {
+    .navbar-collapse {
         background-color: rgba(0, 0, 0, 0.85);
         backdrop-filter: blur(12px);
         -webkit-backdrop-filter: blur(12px);
     }
-    .consult-btn a{
+    .consult-btn a {
         border-radius: 0% !important;
     }
-    nav.navbar.scrolled {
+    nav.scrolled {
         margin: 10px 16px;
         width: calc(100% - 32px) !important;
         border-radius: 16px !important;
     }
 
-    nav.navbar.scrolled .navbar-collapse {
-        background: rgba(15, 13, 10, 0.95);
-        border-radius: 12px;
-        margin-top: 8px;
-        border: 1px solid rgba(212, 175, 55, 0.12) !important;
-        padding: 8px;
+    nav.scrolled .navbar-collapse {
+        background-color: transparent !important;
+        backdrop-filter: none !important;
+        -webkit-backdrop-filter: none !important;
     }
 }

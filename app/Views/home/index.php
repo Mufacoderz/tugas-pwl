@@ -31,9 +31,9 @@
                 <div class="position-relative hero-visual ">
 
                     <img src="<?= BASE_URL ?>/app/Views/assets/images/hero-room.jpg"
-                        class=" object-fit-cover hero-img d-block rounded-top">
+                        class=" object-fit-cover hero-img d-block rounded-top-4">
 
-                    <div class="glass-card  p-3 mt-3 rounded-bottom">
+                    <div class="glass-card  p-3 mt-3 rounded-bottom-4">
                         <h3 class="fw-bold mb-0 text-white">260+</h3>
                         <small class="text-white-50">Proyek Sukses dan Terus Berkembang</small>
                         <hr class="border-secondary my-2">
@@ -51,14 +51,13 @@
     </div>
 </section>
 
-<section class="position-relative overflow-hidden py-5 min-vh-100" id="about">
+<section class="position-relative overflow-hidden py-5 min-vh-100 overflow-hidden" id="about">
 
-    <div class="about-bg-text position-absolute primary-text">WHO WE ARE</div>
 
     <div class="container py-5 mt-5  z-1">
 
         <div class="d-flex align-items-center gap-2 mb-3 ">
-            <span class="about-line"></span>
+            <span class="about-line d-inline-block"></span>
             <span class="text-uppercase fw-semibold small about-label-text golden-text">Siapa Kami</span>
         </div>
 
@@ -79,7 +78,7 @@
         <div class="row g-4">
 
             <div class="col-sm-6 col-lg-3">
-                <div class="about-card bg-white p-4 h-100 rounded-3">
+                <div class="about-card border border-1 bg-white p-4 h-100 rounded-3">
                     <div class="d-flex justify-content-between align-items-start mb-3">
                         <h6 class="fw-bold about-card-title text-dark mb-0">Desain<br>Arsitektur</h6>
                         <i class="fa-solid fa-building-columns fs-4 golden-text"></i>
@@ -105,7 +104,7 @@
             </div>
 
             <div class="col-sm-6 col-lg-3">
-                <div class="about-card bg-white p-4 h-100 rounded-3">
+                <div class="about-card border border-1 bg-white p-4 h-100 rounded-3">
                     <div class="d-flex justify-content-between align-items-start mb-3">
                         <h6 class="fw-bold about-card-title text-dark mb-0">Layanan<br>Konsultasi</h6>
                         <i class="fa-solid fa-comments fs-4 golden-text"></i>
@@ -118,7 +117,7 @@
             </div>
 
             <div class="col-sm-6 col-lg-3">
-                <div class="about-card bg-white p-4 h-100 rounded-3">
+                <div class="about-card border border-1 bg-white p-4 h-100 rounded-3">
                     <div class="d-flex justify-content-between align-items-start mb-3">
                         <h6 class="fw-bold about-card-title text-dark mb-0">Manajemen<br>Proyek</h6>
                         <i class="fa-solid fa-list-check fs-4 golden-text"></i>
