@@ -43,8 +43,6 @@ nav.scrolled {
     -webkit-backdrop-filter: blur(24px) !important;
     border: none !important;
     border-bottom: 1px solid rgba(212, 175, 55, 0.12) !important;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4),
-                0 1px 0 rgba(212, 175, 55, 0.08) inset !important;
     margin: 12px 60px;
     border-radius: 20px !important;
     width: calc(100% - 120px) !important;
@@ -57,6 +55,7 @@ nav.scrolled .golden-btn {
     font-size: 0.82rem !important;
     transition: all 0.3s ease;
 }
+
 .hero-overlay {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.60) 40%, rgba(0, 0, 0, 0.15) 100%);
 }
@@ -67,7 +66,6 @@ nav.scrolled .golden-btn {
 .hero-visual {
     max-width: 380px;
 }
-
 .hero-img {
     height: 280px;
 }
@@ -108,14 +106,7 @@ nav.scrolled .golden-btn {
     border-color: rgba(212, 175, 55, 0.3);
 }
 
-.about-card-highlight {
-    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
-}
 
-.about-card-highlight:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 16px 48px rgba(0, 0, 0, 0.28);
-}
 
 .footer-link:hover {
     color: #D4AF37 !important;
@@ -142,3 +133,4 @@ nav.scrolled .golden-btn {
         -webkit-backdrop-filter: none !important;
     }
 }
+

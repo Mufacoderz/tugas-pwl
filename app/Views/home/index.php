@@ -8,7 +8,7 @@
         <div class="position-absolute top-0 start-0 w-100 h-100 hero-overlay"></div>
     </div>
 
-    <div class="container position-relative z-1">
+    <div class="container position-relative z-1 pt-4 pt-lg-0">
         <div class="row align-items-center min-vh-100">
 
             <div class="col-lg-6 py-5">
