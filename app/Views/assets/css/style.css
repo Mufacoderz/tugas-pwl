@@ -52,8 +52,6 @@ nav.scrolled {
 }
 nav.scrolled .golden-btn {
     padding: 7px 22px !important;
-    font-size: 0.82rem !important;
-    transition: all 0.3s ease;
 }
 
 .hero-overlay {
@@ -78,7 +76,7 @@ nav.scrolled .golden-btn {
 }
 
 
-#about {
+#tentang {
     background-color: #f9f7f4;
 }
 
@@ -109,10 +107,10 @@ nav.scrolled .golden-btn {
 
 
 .footer-link:hover {
-    color: #D4AF37 !important;
+    color: var(--golden-color) !important;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 992px) {
     .navbar-collapse {
         background-color: rgba(0, 0, 0, 0.85);
         backdrop-filter: blur(12px);
