@@ -25,7 +25,7 @@
                     <a class="nav-link fw-semibold small px-3 text-white" href="#">Layanan</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link fw-semibold small px-3 text-white" href="#projek">Projek</a>
+                    <a class="nav-link fw-semibold small px-3 text-white" href="#projek">Proyek</a>
                 </li>
             </ul>
 

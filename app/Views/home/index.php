@@ -63,7 +63,7 @@
 
         <div class="d-flex align-items-center gap-2 mb-3 ">
             <span class="about-line d-inline-block"></span>
-            <span class="text-uppercase fw-semibold small about-label-text golden-text">Siapa Kami</span>
+            <span class="text-uppercase fw-semibold small head-label-text golden-text">Who We Are</span>
         </div>
 
         <div class="row align-items-end mb-5">
@@ -101,7 +101,7 @@
                         <h6 class="fw-bold mb-0 text-white">Desain Interior<br>& Perencanaan</h6>
                         <i class="fa-solid fa-pen-ruler fs-4 golden-text"></i>
                     </div>
-                    <p class="small mb-0" style="color:rgba(255,255,255,0.65);">
+                    <p class="small mb-0 text-white-50" >
                         Buat ruangan Anda terasa hidup! Tim kami menciptakan interior yang hangat dan indah
                         yang mencerminkan kepribadian Anda, sehingga setiap sudut ruangan terasa istimewa.
                     </p>
@@ -146,7 +146,7 @@
 
         <div class="d-flex align-items-center gap-2 mb-3">
             <span class="about-line d-inline-block"></span>
-            <span class="text-uppercase fw-semibold small golden-text">Portofolio Kami</span>
+            <span class="text-uppercase fw-semibold small head-label-text golden-text">Featured Projects</span>
         </div>
 
         <div class="row align-items-end mb-5">
@@ -180,7 +180,7 @@
                                 class="d-block w-100 object-fit-cover" style="height: 400px;" alt="Proyek 1">
                             <div class="carousel-caption d-none d-md-block text-center ps-4 pb-4">
                                 <h5 class="fw-bold text-white">Villa Modern Minimalis</h5>
-                                <p class="text-white-50 small mb-0">Samarinda, Kalimantan Timur</p>
+                                <p class="text-white small mb-0">Samarinda, Kalimantan Timur</p>
                             </div>
                         </div>
                         <div class="carousel-item">
@@ -188,7 +188,7 @@
                                 class="d-block w-100 object-fit-cover" style="height: 400px;" alt="Proyek 2">
                             <div class="carousel-caption d-none d-md-block text-center ps-4 pb-4">
                                 <h5 class="fw-bold text-white">Office Space Premium</h5>
-                                <p class="text-white-50 small mb-0">Balikpapan, Kalimantan Timur</p>
+                                <p class="text-white small mb-0">Balikpapan, Kalimantan Timur</p>
                             </div>
                         </div>
                         <div class="carousel-item">
@@ -196,7 +196,7 @@
                                 class="d-block w-100 object-fit-cover" style="height: 400px;" alt="Proyek 3">
                             <div class="carousel-caption d-none d-md-block text-center ps-4 pb-4">
                                 <h5 class="fw-bold text-white">Boutique Hotel Lobby</h5>
-                                <p class="text-white-50 small mb-0">Bontang, Kalimantan Timur</p>
+                                <p class="text-white small mb-0">Bontang, Kalimantan Timur</p>
                             </div>
                         </div>
                     </div>
