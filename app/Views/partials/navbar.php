@@ -16,16 +16,16 @@
 
             <ul class="navbar-nav mx-auto gap-1 text-center text-lg-start">
                 <li class="nav-item">
-                    <a class="nav-link fw-semibold small px-3 text-white" href="#beranda">Beranda</a>
+                    <a class="nav-link fw-semibold small px-3 text-white" href="#">Beranda</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link fw-semibold small px-3 text-white" href="#tentang">Tentang Kami</a>
+                    <a class="nav-link fw-semibold small px-3 text-white" href="#">Tentang Kami</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link fw-semibold small px-3 text-white" href="#">Layanan</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link fw-semibold small px-3 text-white" href="#projek">Proyek</a>
+                    <a class="nav-link fw-semibold small px-3 text-white" href="#">Proyek</a>
                 </li>
             </ul>
 
