@@ -47,7 +47,7 @@
 
         <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
             <p class="text-white-50 small mb-0">
-                &copy; 2025 Nusa Interiors. All rights reserved.
+                &copy; <?= date('Y') ?> Nusa Interiors. All rights reserved.
             </p>
             <p class="text-white-50 small mb-0">
                 Dikembangkan oleh Nusa Interiors.

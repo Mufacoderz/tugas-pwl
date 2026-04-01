@@ -1,4 +1,4 @@
-<!-- 1 -->
+<!--section 1 -->
 
 <section id="beranda" class="position-relative overflow-hidden min-vh-100 d-flex align-items-center">
 
@@ -9,12 +9,10 @@
     </div>
 
     <div class="container position-relative z-1 pt-4 pt-lg-0">
-        <div class="row align-items-center min-vh-100">
+        <div class="row d-flex align-items-center min-vh-100">
 
             <?php require BASE_PATH . '/app/Views/partials/header.php'; ?>
             <?php require BASE_PATH . '/app/Views/partials/headerImg.php'; ?>
-
-
 
 
         </div>
@@ -23,10 +21,10 @@
 
 
 
-<!-- 2 -->
+<!--section 2 -->
 
 
-<section id="tentang" class="position-relative overflow-hidden py-5 min-vh-100 overflow-hidden">
+<section id="tentang" class="position-relative py-5 min-vh-100">
 
 
     <div class="container py-5 mt-5  z-1">
@@ -52,13 +50,12 @@
 
         <?php require BASE_PATH . '/app/Views/partials/service.php'; ?>
 
-
     </div>
 </section>
 
 
 
-<!-- 3 -->
+<!--section 3 -->
 <section id="projek" class="py-5 min-vh-100 d-flex align-items-center">
     <div class="container py-5">
 
